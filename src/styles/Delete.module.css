@@ -1,0 +1,43 @@
+.btnDelete,
+.btnReturn,
+.btnOpenDelete {
+  padding: 5px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.btnDelete,
+.btnOpenDelete {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btnReturn {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  margin-left: 20px;
+}
+
+.btnOpenDelete {
+  margin-top: 10px;
+}
+
+.btnDelete:hover,
+.btnReturn:hover,
+.btnOpenDelete:hover {
+  cursor: pointer;
+}
+
+.modalContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.modalTitle {
+  padding-top: 15px;
+  width: 80%;
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+.headerTitle,
+.subHeader {
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.social a:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .social {
+    flex-direction: row;
+  }
+  .social h5,
+  .social a {
+    padding: 0 5px;
+  }
+}

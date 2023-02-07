@@ -1,0 +1,25 @@
+.select {
+  padding: 5px;
+  border-radius: 8px;
+  color: #fff;
+  margin-top: 10px;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.option {
+  background-color: #fff;
+  border-color: #fff;
+  color: #000;
+}
+
+.optionDisabled {
+  background-color: #e9ecef;
+  border-color: #e9ecef;
+  color: #000;
+}
+
+.select:hover,
+.option:hover {
+  cursor: pointer;
+}
